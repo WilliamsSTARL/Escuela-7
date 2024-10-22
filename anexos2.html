@@ -1,0 +1,1659 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--MetaDatos-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo-->
+    <title>EESN7</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/anexos.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <!---Contenedor-->
+    <div class="container-fluid">
+
+        <!---Header-->
+        <div class="row">
+            <header class="d-flex align-items-center"> 
+                <div class="col-auto"><img src="img/logo.png" alt=""></div>
+                <div class="col"><h1>Escuela de educacion secundaria N7 - Las toninas</h1></div>
+            </header>
+        </div>
+
+        <!---Contenido-->
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="aside1 d-flex flex-column align-items-center justify-content-center">
+                    
+                <button class="btn1"><a href="cargaralum.php">CARGAR</a></button>
+                <button class="btn1"><a href="legajos.php">LEGAJOS</a></button>
+                <button class="btn1"><a href="nuevousu1.php">USUARIO</a></button>
+                <button class="btn1"><a href="edicio y eliminacion_lt/back_botones.php">ADMINISTRACION</a></button>
+                <div class="dropdown">
+                    <button class="btn btn1 dropdown-toggle white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ANEXOS
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="anexos.html">Legajo personal del alumno</a></li>
+                      <li><a class="dropdown-item" href="anexos2.html">Ficha de inscripcion</a></li>
+                      <li><a class="dropdown-item" href="anexos3.html">Ficha de Autorizacion para Educacion Fisica</a></li>
+                      <li><a class="dropdown-item" href="anexos5.html">Ficha de Autorizacion para uso de imagenes</a></li>
+                    </ul>
+                  </div>
+                <button class="btn1 red"><a href="index.php">SALIR</a></button>
+                    
+                </div><br><br>
+            </div>
+
+            <div class="col-sm-9">
+                <div class="scrollable-div">
+                <form method="post" action="anexo2.php" enctype="multipart/form-data">
+                    <h3>Ficha de inscripcion</h3>
+                    <hr>
+                    <div class="row">
+                        <h5 class="m-3">Datos Estudiante</h5>
+                        <hr>
+                        <div class="col-md-6">
+
+                            <div class="formis">
+                                <label for="apellido"><b>Apellido</b></label>
+                                <br>
+                                <input type="text" id="apellido_alumno" name="apellido_alumno" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="nombre"><b>Nombre</b></label>
+                                <br>
+                                <input type="text" id="nombre_alumno" name="nombre_alumno" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="fecha_nacimiento"><b>Fecha de nacimiento</b></label>
+                                <br>
+                                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento_alumno" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>¿Posee DNI argentino?</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="dni_argentino" value="Si, y tiene el DNI fisico"> Si, y tiene el DNI físico
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="dni_argentino" value="Si, pero no tiene el DNI físico y se encuentra en trámite"> Si, pero no tiene el DNI físico y se encuentra en trámite
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="dni_argentino" value="Si, pero NO tiene el DNI físico y NO se encuentra en tramite"> Si, pero NO tiene el DNI físico y NO se encuentra en trámite
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="dni_argentino" value="NO"> NO posee DNI Argentino
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="formis m-2">
+                                <label for="nro_dni_argentino"><b>Si respondió "Si", indique número de DNI Argentino</b></label>
+                                <br>
+                                <input type="text" id="nro_dni_argentino" name="nro_dni_argentino" placeholder="Tu respuesta">
+                                <br><br>
+                                <label for="cuil_alumno"><b>Indique CUIL</b></label>
+                                <br>
+                                <input type="text" id="cuil_alumno" name="cuil_alumno" placeholder="Tu respuesta">
+                            </div>
+                            
+                            <div class="formis m-2">
+                                <p><b>Si respondió que NO tiene DNI argentino...</b></p>
+                                <label for="certificado_preidentificacion"><b>¿Posee certificado de Pre-identificación (CPI)?</b></label>
+                                <br>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="certificado_preidentificacion" value="Si"> Si
+                                        </label>
+                                    </div>
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="certificado_preidentificacion" value="No"> No
+                                        </label>
+                                    </div>
+                                </div>
+                                <br><br>
+                                <label for="tipo_documento_extranjero"><b>¿Posee documento extranjero? Si la respuesta es Sí, indique tipo de documento y Nro.</b></label>
+                                <br>
+                                <label for="tipo_documento_extranjero"><b>Tipo de documento</b></label>
+                                <input type="text" id="tipo_documento_extranjero" name="tipo_documento_extranjero" placeholder="Tu respuesta">
+                                <br>
+                                <label for="nro_documento_extranjero"><b>Nro. de documento</b></label>
+                                <input type="text" id="nro_documento_extranjero" name="nro_documento_extranjero" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis2 d-flex d-flex flex-column align-items-start">
+                                <p><b>Identidad de género</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="identidad_genero" value="Mujer"> Mujer
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="identidad_genero" value="Mujer trans/travesti"> Mujer trans/travesti
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="identidad_genero" value="Varon"> Varón
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="identidad_genero" value="Varon trans/Masculinidad trans"> Varón trans/Masculinidad trans
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="identidad_genero" value="No binario"> No binario
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="identidad_genero" value="Otro"> Otro
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="identidad_genero" value="No desea responder"> No desea responder
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <h5 class="m-3">Domicilio</h5>
+                            <hr>
+                             
+                            <div class="formis">
+                                <label for="domicilio_calle"><b>Calle</b></label>
+                                <br>
+                                <input type="text" id="domicilio_calle" name="domicilio_calle" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="domicilio_numero"><b>N°</b></label>
+                                <br>
+                                <input type="text" id="domicilio_numero" name="domicilio_numero" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="domicilio_piso_torre_depto"><b>Piso, Torre y/o depto</b></label>
+                                <br>
+                                <input type="text" id="domicilio_piso_torre_depto" name="domicilio_piso_torre_depto" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="domicilio_entre_calles"><b>Entre calle y calle</b></label>
+                                <br>
+                                <input type="text" id="domicilio_entre_calles" name="domicilio_entre_calles" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="domicilio_otro_dato"><b>Otro dato</b></label>
+                                <br>
+                                <input type="text" id="domicilio_otro_dato" name="domicilio_otro_dato" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="provincia"><b>Provincia</b></label>
+                                <br>
+                                <input type="text" id="provincia" name="provincia" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="distrito"><b>Distrito</b></label>
+                                <br>
+                                <input type="text" id="distrito" name="distrito" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="localidad"><b>Localidad</b></label>
+                                <br>
+                                <input type="text" id="localidad" name="localidad" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="telefono_area"><b>Teléfono (cód. área)</b></label>
+                                <br>
+                                <input type="text" id="telefono_area" name="telefono_area" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="telefono_celular"><b>Teléfono celular</b></label>
+                                <br>
+                                <input type="text" id="telefono_celular" name="telefono_celular" placeholder="Tu respuesta">
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>Lugar de nacimiento</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="lugar_nacimiento" value="Argentina">En Argentina
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="lugar_nacimiento" value="Extranjero">En el extranjero
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="formis">
+                                <label for="nacionalidad"><b>Nacionalidad
+                                </b></label>
+                                <br>
+                                <input type="text" name="nacionalidad" placeholder="Tu respuesta">
+                            </div>
+
+                            <div class="formis">
+                                    <p><b>Solo para quienes marcaron Argentina
+                                        Provincia:</b></p>
+                                    <div class="options d-flex flex-column align-items-start">
+    
+                                        <div class="n1">
+                                            <label>
+                                                <input type="radio" name="provincia_argentina" value="Buenos Aires">Buenos Aires                                     </label>
+                                        </div>
+    
+                                        <div class="n1">
+                                            <label>
+                                                <input type="radio" name="provincia_argentina" value="Otra">Otra
+                                            </label>
+                                        </div>
+    
+                                    </div>
+                                    <br>
+                                <label for="provincia_otro"><b>Si la respuesta es "Otra" especifique que provincia:</b></label>
+                                <br>
+                                <input type="text" name="provincia_otro" placeholder="Tu respuesta">
+                            </div>
+
+                            <div class="formis">
+                                <label for="distrito_buenos_aires"><b>Solo para los que marcaron Buenos aires, escribir distrito y localidad
+                                </b></label>
+                                <br>
+                                <input type="text" name="distrito_BA" placeholder="Distrito">
+                                <br>
+                                <input type="text" name="localidad_BA" placeholder="Localidad">
+                            </div>
+
+
+                            <h5 class="m-3">Otros datos</h5>
+                            <hr>
+
+                            <div class="formis">
+
+                                <p><b>Hermanos y Hermanas</b></p>
+                                <div class="options  d-flex flex-column align-items-start">
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="hermanos" value="SI">Si
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="hermanos" value="No">No tienes hermanos o hermanas
+                                        </label>
+                                    </div>
+                                </div>
+                                <br>
+                            
+                                <label for="cantidad_hermanos"><b>Si respondió "Si" cantidad de hermanos/as y cantidad que asiste a este establecimiento
+                                </b></label>
+                                <br>
+                                <input type="text" name="cantidad_hermanos" placeholder="Tu respuesta">
+
+                            </div>
+
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>¿Se hablan lenguas distintas al castellano en el hogar?</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="lenguas_distintas" value="SI">Si
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="lenguas_distintas" value="NO">No
+                                        </label>
+                                    </div>
+                                </div>
+                                <br>
+                                <p><b>En caso afirmativo...</b></p><br>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <div class="n1">
+                                        <p><b>Lengua/s indígena/s</b></p>
+                                        <label>
+                                            <input type="radio" name="lengua_indigena" value="SI" >Si
+                                        </label>
+
+                                        <label>
+                                            <input type="radio" name="lengua_indigena" value="NO" >No
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <p><b>Otras lenguas</b></p>
+                                        <label>
+                                            <input type="radio" name="otras_lenguas" value="SI">Si
+                                        </label>
+
+                                        <label>
+                                            <input type="radio" name="otras_lenguas" value="NO" >No
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>¿Se reconoce perteneciente o descendiente de Pueblos Originarios?</b></p>                             </p>
+                                <div class="options  d-flex flex-column align-items-start">
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="pueblos_originarios" value="SI" >Si
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="pueblos_originarios" value="NO">No
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>¿Percibe asignacion universal por hijo?</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <div class="n1">
+                                        <p><b>Asignacion Universal por hijo (AUH)</b></p>
+                                        <label>
+                                            <input type="radio" name="asignacion_universal" value="SI" >Si
+                                        </label>
+
+                                        <label>
+                                            <input type="radio" name="asignacion_universal" value="NO">No
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <p><b>¿Percibe Progresar?</b></p>
+                                        <label>
+                                            <input type="radio" name="progresar" value="SI">Si
+                                        </label>
+
+                                        <label>
+                                            <input type="radio" name="progresar" value="NO">No
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>Medio de trasporte que utiliza para llegar al establecimiento (marcar todas las opciones que correspondan)</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <div class="n1">
+                                        <label>
+                                            <input type="checkbox" name="trasporte_pie_bicicleta" value="SI">A pie/bicicleta
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="checkbox" name="trasporte_escolar" value="Si">Trasporte escolar DGCyE
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="checkbox" name="trasporte_colectivo" value="Si">Colectivo
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="checkbox" name="trasporte_tren" value="Si">Tren
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="checkbox" name="trasporte_particular" value="Si">Vehículo particular
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="checkbox" name="trasporte_taxi" value="Si">Taxi/Remis
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="checkbox" name="transporte_otro" value="Si">Otro
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>Contestan estudiantes de 14 años y mas...</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+
+                                    <div class="n1">
+                                        <p><b>¿Tiene hijas o hijos menores de 3 años?</b></p>
+                                        <label>
+                                            <input type="radio" name="hijas_hijos_menores_3" value="SI">Si
+                                        </label>
+
+                                        <label>
+                                            <input type="radio" name="hijas_hijos_menores_3" value="NO">No
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <p><b>¿Asisten a una sala del Proyecto de Salas Maternales?</b></p>
+                                        <label>
+                                            <input type="radio" name="sala_maternales" value="SI">Si
+                                        </label>
+
+                                        <label>
+                                            <input type="radio" name="sala_maternales" value="NO">No
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <h5 class="m-3">Informacion de Salud</h5>
+                        <hr>
+
+                        <div class="col-md-6">
+
+                            <div class="formis">
+                                <label for="ObraSocial"><b>¿Posee obra social?</b></label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="obra_social" value="SI" >Si
+                                </label>
+                                <label>
+                                    <input type="radio" name="obra_social" value="NO">No
+                                </label>
+                                <br>
+                                <p><b>En caso afirmativo: </b></p>
+                                <label for="obra_social_nombre"><b>Obra social:</b></label>
+                                <input type="text" name="obra_social_nombre" placeholder="Obra social">
+                                <br>
+                                <label for="obra_social_numero"><b>N° Afiliado:</b></label>
+                                <input type="text" name="obra_social_numero" placeholder="Número de afiliado">
+                            </div>
+                        
+                            <div class="formis">
+                                <label for="AntecedentesSalud"><b>Antecedentes Personales de Salud</b></label>
+                                <br>
+                                <p><b>¿Padece o ha padecido alguna o algunas de las siguientes condiciones de salud? (Marcar por SI o por NO)</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <label for="Asma"><b>Asma / Broncoespasmos a repetición</b></label>
+                                    <label><input type="radio" name="Asma" value="SI" >Si</label>
+                                    <label><input type="radio" name="Asma" value="NO">No</label><br>
+
+                                    <label for="Celiaquia"><b>Celiaquía</b></label>
+                                    <label><input type="radio" name="Celiaquia" value="SI">Si</label>
+                                    <label><input type="radio" name="Celiaquia" value="NO">No</label><br>
+
+                                    <label for="ProblemasCardiacos"><b>Problemas / Condiciones cardíacas</b></label>
+                                    <label><input type="radio" name="ProblemasCardiacos" value="SI" >Si</label>
+                                    <label><input type="radio" name="ProblemasCardiacos" value="NO">No</label><br>
+                                    
+                                    <label for="Diabetes"><b>Diabetes</b></label>
+                                    <label><input type="radio" name="Diabetes" value="SI">Si</label>
+                                    <label><input type="radio" name="Diabetes" value="NO">No</label><br>
+                                    
+                                    <label for="PresionAlta"><b>Presión arterial elevada</b></label>
+                                    <label><input type="radio" name="PresionAlta" value="SI" >Si</label>
+                                    <label><input type="radio" name="PresionAlta" value="NO" >No</label><br>
+                                    
+                                    <label for="Convulsiones"><b>Convulsiones</b></label>
+                                    <label><input type="radio" name="Convulsiones" value="SI" >Si</label>
+                                    <label><input type="radio" name="Convulsiones" value="NO">No</label><br>
+                                    
+                                    <label for="AlteracionesSanguineas"><b>Alteraciones sanguíneas</b></label>
+                                    <label><input type="radio" name="AlteracionesSanguineas" value="SI" >Si</label>
+                                    <label><input type="radio" name="AlteracionesSanguineas" value="NO">No</label><br>
+                                    
+                                    <label for="Quemaduras"><b>Quemaduras moderadas o severas</b></label>
+                                    <label><input type="radio" name="Quemaduras" value="SI" >Si</label>
+                                    <label><input type="radio" name="Quemaduras" value="NO" >No</label><br>
+                                    
+                                    <label for="FaltaOrgano"><b>Falta o no funcionamiento de algún órgano</b></label>
+                                    <label><input type="radio" name="FaltaOrgano" value="SI" >Si</label>
+                                    <label><input type="radio" name="FaltaOrgano" value="NO" >No</label><br>
+                                    
+                                    <label for="EnfermedadOncohematologica"><b>Enfermedad oncohematológica</b></label>
+                                    <label><input type="radio" name="EnfermedadOncohematologica" value="SI" >Si</label>
+                                    <label><input type="radio" name="EnfermedadOncohematologica" value="NO">No</label><br>
+                                    
+                                    <label for="Inmunodeficiencias"><b>Inmunodeficiencias (bajas defensas) por enfermedad o medicamentos</b></label>
+                                    <label><input type="radio" name="Inmunodeficiencias" value="SI" >Si</label>
+                                    <label><input type="radio" name="Inmunodeficiencias" value="NO">No</label><br>
+                                    
+                                    <label for="Fracturas"><b>Fracturas, luxaciones, lesiones ligamentarias previas</b></label>
+                                    <label><input type="radio" name="Fracturas" value="SI" >Si</label>
+                                    <label><input type="radio" name="Fracturas" value="NO" >No</label><br>
+                                    
+                                    <label for="ProblemasHuesos"><b>Otro problema en los huesos o articulaciones</b></label>
+                                    <label><input type="radio" name="ProblemasHuesos" value="SI" >Si</label>
+                                    <label><input type="radio" name="ProblemasHuesos" value="NO">No</label><br>
+                                    
+                                    <label for="TraumatismoCráneo"><b>Traumatismo de cráneo que haya requerido observación por guardia o internación</b></label>
+                                    <label><input type="radio" name="TraumatismoCráneo" value="SI">Si</label>
+                                    <label><input type="radio" name="TraumatismoCráneo" value="NO">No</label><br>
+                                    
+                                    <label for="ProblemasPiel"><b>Problemas de piel</b></label>
+                                    <label><input type="radio" name="ProblemasPiel" value="SI">Si</label>
+                                    <label><input type="radio" name="ProblemasPiel" value="NO">No</label>
+                                </div>
+                            </div>
+
+                            <div class="formis">
+                                <p><b>En relación con el ejercicio (durante o después), ha padecido alguna vez:</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <label for="Desmayos"><b>Desmayos</b></label>
+                                    <label><input type="radio" name="Desmayos" value="SI" > Sí</label>
+                                    <label><input type="radio" name="Desmayos" value="NO"> No</label><br>
+                                    
+                                    <label for="DolorPecho"><b>Dolor fuerte en el pecho</b></label>
+                                    <label><input type="radio" name="DolorPecho" value="SI"> Sí</label>
+                                    <label><input type="radio" name="DolorPecho" value="NO" > No</label><br>
+            
+                                    <label for="Mareos"><b>Mareos</b></label>
+                                    <label><input type="radio" name="Mareos" value="SI" > Sí</label>
+                                    <label><input type="radio" name="Mareos" value="NO" > No</label><br>
+            
+                                    <label for="MayorCansancio"><b>Mayor cansancio que sus compañeros o compañeras</b></label>
+                                    <label><input type="radio" name="MayorCansancio" value="SI"> Sí</label>
+                                    <label><input type="radio" name="MayorCansancio" value="NO" > No</label><br>
+            
+                                    <label for="Palpitaciones"><b>Palpitaciones</b></label>
+                                    <label><input type="radio" name="Palpitaciones" value="SI" > Sí</label>
+                                    <label><input type="radio" name="Palpitaciones" value="NO"> No</label><br>
+            
+                                    <label for="DificultadRespirar"><b>Dificultad para respirar durante o después de la actividad física</b></label>
+                                    <label><input type="radio" name="DificultadRespirar" value="SI" > Sí</label>
+                                    <label><input type="radio" name="DificultadRespirar" value="NO"> No</label>
+                                </div>
+                            </div>
+                            
+                            <div class="formis">
+                                <p><b>¿Tuvo alguna internación? (Marcar por SI o por NO y en caso afirmativo, completar las ultimas columnas)</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <div class="n1">
+                                        <label for="Internacion/SC"><b>Internacion en sala comun</b></label>
+                                        <label><input type="radio" name="Internacion/SC" value="SI"> Sí</label>
+                                        <label><input type="radio" name="Internacion/SC" value="NO" > No</label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label for="Internacion/CII"><b>Internacion en sala de cuidados intermedios/ intensivos</b></label>
+                                        <label><input type="radio" name="Internacion/CII" value="SI" > Sí</label>
+                                        <label><input type="radio" name="Internacion/CII" value="NO" > No</label>
+                                    </div>
+                                </div>
+                                <label for="VECES"><b>¿Cuantas veces?</b></label><br>
+                                <input type="text" name="VECES" placeholder="Veces internados">
+                                <br>
+                                <label for="CAUSA"><b>Indique la/s causa/s o diagnostico/s</b></label>
+                                <input type="text" name="CAUSA" placeholder="Causa/Diagnostico">
+                            </div>
+            
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <div class="formis">
+                                <p><b>¿Padece o ha padecido algún tipo de alergia grave?</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <label><input type="radio" name="AlergiaGrave" value="SI" > Sí</label>
+                                    <label><input type="radio" name="AlergiaGrave" value="NO"> No</label><br>
+
+                                    <p><b>En caso afirmativo, ¿de que tipo? (Marcar por SI o por NO)</b></p>
+                                    
+                                    <label for="AlergiaMedicamentos"><b>Medicamentos</b></label>
+                                    <label><input type="radio" name="AlergiaMedicamentos" value="SI"> Sí</label>
+                                    <label><input type="radio" name="AlergiaMedicamentos" value="NO" > No</label><br>
+
+                                    <label for="AlergiaInternacion/M"><b>¿Requirió internación?</b></label>
+                                    <label><input type="radio" name="AlergiaInternacion/M" value="SI" > Sí</label>
+                                    <label><input type="radio" name="AlergiaInternacion/M" value="NO"> No</label><br>
+
+                                    <label for="AlergiaVacunas"><b>Vacunas</b></label>
+                                    <label><input type="radio" name="AlergiaVacunas" value="SI" > Sí</label>
+                                    <label><input type="radio" name="AlergiaVacunas" value="NO" > No</label><br>
+                                    
+                                    <label for="AlergiaInternacion/V"><b>¿Requirió internación?</b></label>
+                                    <label><input type="radio" name="AlergiaInternacion/V" value="SI" > Sí</label>
+                                    <label><input type="radio" name="AlergiaInternacion/V" value="NO" > No</label><br>
+
+                                    <label for="AlergiaAlimentos"><b>Alimentos</b></label>
+                                    <label><input type="radio" name="AlergiaAlimentos" value="SI" > Sí</label>
+                                    <label><input type="radio" name="AlergiaAlimentos" value="NO" > No</label><br>
+
+                                    <label for="AlergiaInternacion/A"><b>¿Requirió internación?</b></label>
+                                    <label><input type="radio" name="AlergiaInternacion/A" value="SI" > Sí</label>
+                                    <label><input type="radio" name="AlergiaInternacion/A" value="NO" > No</label><br>
+
+                                    <label for="AlergiaPicaduras"><b>Picaduras de insectos</b></label>
+                                    <label><input type="radio" name="AlergiaPicaduras" value="SI" > Sí</label>
+                                    <label><input type="radio" name="AlergiaPicaduras" value="NO"> No</label><br>
+
+                                    <label for="AlergiaInternacion/P"><b>¿Requirió internación?</b></label>
+                                    <label><input type="radio" name="AlergiaInternacion/P" value="SI" > Sí</label>
+                                    <label><input type="radio" name="AlergiaInternacion/P" value="NO"> No</label><br>
+                                    
+                                    <label for="AlergiaEstacionales"><b>Estacionales (polen, ácaros, polvo, etc.)</b></label>
+                                    <label><input type="radio" name="AlergiaEstacionales" value="SI" > Sí</label>
+                                    <label><input type="radio" name="AlergiaEstacionales" value="NO" > No</label><br>
+
+                                    <label for="AlergiaInternacion/E"><b>¿Requirió internación?</b></label>
+                                    <label><input type="radio" name="AlergiaInternacion/E" value="SI" > Sí</label>
+                                    <label><input type="radio" name="AlergiaInternacion/E" value="NO" > No</label><br>
+                                    
+                                    <label for="AlergiaOtras"><b>Otras</b></label>
+                                    <label><input type="radio" name="AlergiaOtras" value="SI" > Sí</label>
+                                    <label><input type="radio" name="AlergiaOtras" value="NO"> No</label><br>
+
+                                    <label for="AlergiaInternacion/O"><b>¿Requirió internación?</b></label>
+                                    <label><input type="radio" name="AlergiaInternacion/O" value="SI" > Sí</label>
+                                    <label><input type="radio" name="AlergiaInternacion/O" value="NO"> No</label><br>
+                                </div>
+                            </div>
+
+                            <div class="formis">
+                                <p><b>¿Tiene disminución auditiva?</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <label for="DisminucionAuditiva"><b>Disminución auditiva</b></label>
+                                    <label><input type="radio" name="DisminucionAuditiva" value="SI"> Sí</label>
+                                    <label><input type="radio" name="DisminucionAuditiva" value="NO"> No</label><br>
+                                    <label for="UsoAudifonos"><b>En caso afirmativo: ¿Usa audífonos?</b></label>
+                                    <label><input type="radio" name="UsoAudifonos" value="SI"> Sí</label>
+                                    <label><input type="radio" name="UsoAudifonos" value="NO"> No</label>
+                                </div>
+                            </div>
+            
+                            <div class="formis">
+                                <p><b>¿Tiene disminución visual?</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <label for="DisminucionVisual"><b>Disminución visual</b></label>
+                                    <label><input type="radio" name="DisminucionVisual" value="SI"> Sí</label>
+                                    <label><input type="radio" name="DisminucionVisual" value="NO"> No</label><br>
+                                    <label for="UsoLentes"><b>En caso afirmativo: ¿Usa lentes?</b></label>
+                                    <label><input type="radio" name="UsoLentes" value="SI"> Sí</label>
+                                    <label><input type="radio" name="UsoLentes" value="NO"> No</label>
+                                </div>
+                            </div>
+
+                            <div class="formis">
+                                <p><b>¿Recibe de manera habitual algún tipo de medicación?</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <label><input type="radio" name="MedicaciónHabitual" value="SI"> Sí</label>
+                                    <label><input type="radio" name="MedicaciónHabitual" value="NO"> No</label><br>
+                                    <label for="CualMedicación"><b>En caso afirmativo, ¿cuál?</b></label>
+                                    <input type="text" name="CualMedicación" placeholder="Medicación">
+                                </div>
+                            </div>
+
+                            <div class="formis">
+                                <p><b>¿Tuvo alguna operación?</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <label><input type="radio" name="Operacion" value="SI"> Sí</label>
+                                    <label><input type="radio" name="Operacion" value="NO"> No</label><br>
+                                    <label for="MotivoOperacion"><b>En caso afirmativo, ¿por qué motivo?</b></label>
+                                    <input type="text" name="MotivoOperacion" placeholder="Motivo"><br>
+                                    <label for="AnoOperacion"><b>¿En qué año?</b></label>
+                                    <input type="text" name="AnoOperacion" placeholder="Año">
+                                </div>
+                            </div>
+
+                            <h5 class="m-3">Antecedentes familiares de salud</h5>
+                            <hr>
+                            <div class="formis">
+                            
+                                <p><b>¿Algún familiar directo padece o ha padecido alguna o algunas de las siguientes condiciones de salud? (Marcar por SI o por NO)</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <label for="MuerteSubita"><b>Muerte súbita de un familiar directo menor de 50 años</b></label>
+                                    <label><input type="radio" name="MuerteSubita" value="SI"> Sí</label>
+                                    <label><input type="radio" name="MuerteSubita" value="NO"> No</label><br>
+                                    
+                                    <label for="Diabetes"><b>Diabetes</b></label>
+                                    <label><input type="radio" name="DiabetesFamiliar" value="SI"> Sí</label>
+                                    <label><input type="radio" name="DiabetesFamiliar" value="NO"> No</label><br>
+                                    
+                                    <label for="ProblemasCardiacosFamiliar"><b>Problemas cardíacos</b></label>
+                                    <label><input type="radio" name="ProblemasCardiacosFamiliar" value="SI"> Sí</label>
+                                    <label><input type="radio" name="ProblemasCardiacosFamiliar" value="NO"> No</label><br>
+                                    
+                                    <label for="TosCronica"><b>Tos crónica</b></label>
+                                    <label><input type="radio" name="TosCronica" value="SI"> Sí</label>
+                                    <label><input type="radio" name="TosCronica" value="NO"> No</label><br>
+                                    
+                                    <label for="CeliaquiaFamiliar"><b>Celiaquía</b></label>
+                                    <label><input type="radio" name="CeliaquiaFamiliar" value="SI"> Sí</label>
+                                    <label><input type="radio" name="CeliaquiaFamiliar" value="NO"> No</label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+                        <h5 class="m-3">Datos del establecimiento en el que se inscribe</h5>
+                        <hr>
+
+                        <div class="formis">
+                            <label for="datos_establecimiento_distrito"><b>Distrito</b></label>
+                            <br>
+                            <input type="text" name="datos_establecimiento_distrito" placeholder="Tu respuesta">
+                        </div>
+
+                        <div class="formis">
+                            <label for="NombreEscuela"><b>Nombre escuela</b></label>
+                            <br>
+                            <input type="text" name="datos_establecimiento_nombre" placeholder="Tu respuesta">
+                        </div>
+
+                        <div class="formis">
+                            <label for="N"><b>N°</b></label>
+                            <br>
+                            <input type="text" name="datos_establecimiento_numero" placeholder="Tu respuesta">
+                        </div>
+
+                        <div class="formis2">
+                            <div class="options d-flex flex-column align-items-start">
+                                <label for="S/GESTION"><b>Sector de gestion</b></label>
+                                <label><input type="radio" name="datos_establecimiento_gestion" value="Estatal">Estatal</label>
+                                <label><input type="radio" name="datos_establecimiento_gestion" value="Provincia">Provincia</label>
+                            </div>
+                        </div>
+
+                        <h5 class="m-3">Datos del establecimiento de procedencia</h5>
+                        <hr>
+
+                        <div class="formis">
+                            <p><b>(Completar solo si el año pasado o este año asistió a otro establecimiento)</b></p>
+                            
+                            <label for="Pais"><b>País</b></label><br>
+                            <label><input type="radio" name="Pais" value="Argentina"> Argentina</label>
+                            <label><input type="radio" name="Pais" value="Otro"> Otro país (especificar)</label>
+                            
+                            <input type="text" name="OtroPais" placeholder="Especificar país"><br><br>
+
+                            <p><b>Solo para quienes marcaron opcion Argentina:</b></p>
+                            
+                            <label for="Provincia"><b>Provincia</b></label><br>
+                            <label><input type="radio" name="Provincia" value="BuenosAires" > Buenos Aires</label>
+                            <label><input type="radio" name="Provincia" value="OtraProvincia" > Otra (especificar)</label>
+                            <input type="text" name="Especificar provincia" placeholder="Especificar provincia"><br><br>
+
+                            <label for="DistritoB"><b>Distrito</b></label><br>
+                            <input type="text" name="DistritoB" placeholder="Tu respuesta"><br><br>
+                            
+                            <label for="NivelModalidad"><b>Nivel/Modalidad</b></label><br>
+                            <input type="text" name="NivelModalidad" placeholder="Nivel/Modalidad"><br><br>
+
+                            <div class="options d-flex flex-column align-items-start">
+                                <label for="2/GESTION"><b>Sector de gestion</b></label>
+                                <label><input type="radio" name="GESTIONDOS" value="Estatal">Estatal</label>
+                                <label><input type="radio" name="GESTIONDOS" value="Privado" >Privado</label>
+                            </div><br>
+                            
+                            <label for="Dependencia"><b>Dependencia</b></label><br>
+                            <div class="options d-flex flex-column align-items-start">
+                                <label><input type="radio" name="Dependencia" value="Oficial"> Oficial</label>
+                                <label><input type="radio" name="Dependencia" value="Municipal"> Municipal</label>
+                                <label><input type="radio" name="Dependencia" value="Nacional"> Nacional</label>
+                                <label><input type="radio" name="Dependencia" value="Privada"> Privada</label>
+                                <label><input type="radio" name="Dependencia" value="Otra"> Otra organismos</label>
+                            </div>
+                            
+                            <label for="NombreEscuelaProcedencia"><b>Nombre escuela</b></label>
+                            <input type="text" name="NombreEscuelaProcedencia" placeholder="Tu respuesta" ><br>
+
+                            <label for="N2"><b>N°</b></label>
+                            <input type="text" name="N2" placeholder="Tu respuesta" >
+                        </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            <h5 class="m-3">Inscripcion</h5>
+                            <hr>
+                            <div class="formis">
+                                
+                                <label for="inscripcion_ciclo"><b>Se inscribe en</b></label><br>
+                                <label><input type="radio" name="inscripcion_ciclo" value="CicloBasico"> Ciclo Básico</label><br>
+                                <label><input type="radio" name="inscripcion_ciclo" value="CicloSuperior"> Ciclo Superior</label><br>
+                                <label><input type="radio" name="inscripcion_ciclo" value="AulaFortalecimiento">Aula de Fortalecimiento</label>
+                                <label><input type="radio" name="inscripcion_ciclo" value="EscuelaProfSecundaria">Escuela Profesional Secundaria</label>
+                                
+                                <label for="Orientacion"><b>Orientación</b></label>
+                                <input type="text" name="Orientacion" placeholder="Orientación"><br>
+                                
+                                <label for="turno_solicitado"><b>Turno solicitado</b></label><br>
+                                <label><input type="radio" name="turno_solicitado" value="Mañana"> Mañana</label>
+                                <label><input type="radio" name="turno_solicitado" value="Tarde"> Tarde</label>
+                                <label><input type="radio" name="turno_solicitado" value="Vespertino"> Vespertino</label>
+                                <label><input type="radio" name="turno_solicitado" value="Noche"> Noche</label><br>
+                                
+                                <label for="jornada"><b>Jornada</b></label><br>
+                                <label><input type="radio" name="jornada" value="Simple"> Simple</label>
+                                <label><input type="radio" name="jornada" value="Extendida"> Extendida</label>
+                                <label><input type="radio" name="jornada" value="Completa"> Completa/Doble escolaridad</label><br>
+
+                                <label for="ano"><b>Año</b></label><br>
+                                <label><input type="radio" name="ano" value="1"> 1</label>
+                                <label><input type="radio" name="ano" value="2"> 2</label>
+                                <label><input type="radio" name="ano" value="3"> 3</label>
+                                <label><input type="radio" name="ano" value="4"> 4</label>
+                                <label><input type="radio" name="ano" value="5"> 5</label>
+                                <label><input type="radio" name="ano" value="6"> 6</label>
+
+                                <br>
+                                <p><b>Condicion en la inscripcion actual (Marcar solo una opción)</b></p><br>
+
+                                <label><input type="radio" name="condicion_inscripcion" value="Ingresante"> Ingresante al Nivel</label><br>
+                                <label><input type="radio" name="condicion_inscripcion" value="Promovida"> Promovida/Promovido</label><br>
+                                <label><input type="radio" name="condicion_inscripcion" value="Reinscripta"> Reinscripta/Reinscripto</label><br>
+                                <label><input type="radio" name="condicion_inscripcion" value="Repitente"> Repitente</label><br><br>
+                              
+
+                                <p><b>Inclusion</b></p>
+                                    <label for="proyecto_inclusion"><b>¿Cursa con proyecto de inclusión?</b></label><br>
+                                    <label><input type="radio" name="proyecto_inclusion" value="SI"> Sí</label>
+                                    <label><input type="radio" name="proyecto_inclusion" value="NO"> No</label><br>
+                
+                                    <p><b>Si la respuesta es afirmativa, marque con una cruz lo que corresponda</b></p>
+                                    <label><input type="radio" name="acompanamiento_inclusion" value="Concurre">Concurre a una Escuela Especial a contraturno y cuenta con acompañamiento de maestra o maestro de inclusión</label><br><br>
+                                    <label><input type="radio" name="acompanamiento_inclusion" value="No Concurre">No concurre a una Escuela Especial pero cuenta con acompañamiento de maestra o maestro de inclusión</label><br>
+                                    <br>
+                                    <label for="acompanante_externo"><b>¿Cursa con acompañante asistente externo?</b></label><br>
+                                    <label><input type="radio" name="acompanante_externo" value="SI"> Sí</label>
+                                    <label><input type="radio" name="acompanante_externo" value="NO"> No</label>
+
+                            </div>
+
+                            <h5 class="m-3">Educacion complementaria</h5>
+                            <hr>
+                                
+                            <div class="formis">
+                                <label for="CEC"><b>Centro Educativo Complementario (CEC):</b></label><br>
+                                <label><input type="radio" name="cec" value="SI"> Sí</label>
+                                <label><input type="radio" name="cec" value="NO"> No</label><br>
+            
+                                <label for="CEF"><b>Centro de Educación Física (CEF):</b></label><br>
+                                <label><input type="radio" name="cef" value="SI"> Sí</label>
+                                <label><input type="radio" name="cef" value="NO"> No</label><br>
+            
+                                <label for="EducacionEstetica"><b>Escuela de Educación Estética:</b></label><br>
+                                <label><input type="radio" name="escuela_estetica" value="SI"> Sí</label>
+                                <label><input type="radio" name="escuela_estetica" value="NO"> No</label>
+                            </div>
+
+                            <h5 class="m-3">Servicio Alimentario Escolar</h5>
+                            <hr>
+
+                            <div class="formis">
+                                <label for="servicio_alimentario"><b>En caso de que la institución cuente con el servicio, ¿Solicita la incorporación en el Servicio Alimentario Escolar?</b></label><br>
+                                <label><input type="radio" name="servicio_alimentario" value="Comedor"> Comedor</label><br>
+                                <label><input type="radio" name="servicio_alimentario" value="DesayunoMerienda"> Desayuno y Merienda</label>
+                            </div>
+
+                        </div>
+
+                        <h5 class="m-3">Datos de la persona responsable 1</h5>
+                        <hr>
+
+                        <div class="col-md-6">
+                            
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p class="m-2"><b>Vinculo con estudiante:</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_1_vinculo" value="Padre">Padre
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_1_vinculo" value="Madre">Madre
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_1_vinculo" value="Tutor">Tutor
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_1_vinculo" value="Tutor">Tutora
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_1_vinculo" value="Otro">Otro
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="formis">
+                                <label for="Apellido"><b>Apellido/s</b></label>
+                                <br>
+                                <input type="text" name="responsable_1_apellido" placeholder="Tu respuesta">
+                            </div>
+            
+                            <div class="formis">
+                                <label for="Nombre"><b>Nombre/s</b></label>
+                                <br>
+                                <input type="text" name="responsable_1_nombre" placeholder="Tu respuesta">
+                            </div>
+
+                            <div class="formis">
+                                <label for="Nacionalidad"><b>Nacionalidad</b></label>
+                                <br>
+                                <input type="text" name="responsable_1_nacionalidad" placeholder="Tu respuesta">
+                            </div>
+                            
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>¿Posee DNI argentino?</b></p>
+                                <div class="options  d-flex flex-column align-items-start">
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_1_dni_argentino" value="SI">Si, y tiene el DNI fisico
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_1_dni_argentino" value="SI/TRAMITE">Si, pero no tiene el DNI físico
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_1_dni_argentino" value="NO">NO posee DNI Argentino
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="formis m-2">
+                                <label for="DNI"><b>Si respondió "Si", indique numero de DNI Argentino</b></label>
+                                <br>
+                                <input type="text" name="responsable_1_numero_dni_argentino" placeholder="Tu respuesta">
+                            </div>
+                            
+
+                            <div class="formis m-2">
+                                <label for="responsable_1_certificado_preidentificacion"><b>Si respondió que NO tiene DNI argentino: ¿Posee certificado de Pre-identificacion (CPI)? </b></label>
+                                <br>
+
+                                <div class="n1">
+                                    <label>
+                                        <input type="radio" name="responsable_1_certificado_preidentificacion" value="SI">Si
+                                    </label>
+                                </div>
+
+                                <div class="n1">
+                                    <label>
+                                        <input type="radio" name="responsable_1_certificado_preidentificacion" value="SI">No
+                                    </label>
+                                </div>
+                                
+
+                                <label for="Doc Extranjero"><b>¿Posee documento extranjero?</b></label>
+                                <br>
+                                
+                                <div class="n1">
+                                    <label>
+                                        <input type="radio" name="responsable_1_documento_extranjero" value="SI">Si, tipo de doc:
+                                        <input type="text" name="DOCEXTRAN" placeholder="Tu respuesta">
+                                       <b>N°</b>
+                                        <input type="text" name="NUMEXTRAN" placeholder="Tu respuesta">
+                                    </label>
+                                </div>
+                                
+                                <div class="n1">
+                                    <label>
+                                        <input type="radio" name="responsable_1_documento_extranjero" value="SI">No
+                                    </label>
+                                </div>
+                                
+                            </div>
+
+                            <div class="formis">
+                                <label for="responsable_1_profesion"><b>Profesión u Ocupación</b></label><br>
+                                <input type="text" id="profesion" name="responsable_1_profesion" placeholder="Tu respuesta">
+                            </div>
+                        
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>¿Asistió a algún establecimiento educativo?</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <label>
+                                        <input type="radio" name="responsable_1_educacion" value="Si"> Si
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="responsable_1_educacion" value="No"> No
+                                    </label>
+                                </div>
+                            </div>
+                        
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>En caso afirmativo, ¿Cuál es el nivel más alto que cursó?</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <label>
+                                        <input type="radio" name="responsable_1_nivel_mas_alto" value="Primario"> Primario
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="responsable_1_nivel_mas_alto" value="Secundario"> Secundario
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="responsable_1_nivel_mas_alto" value="Superior"> Superior
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="responsable_1_nivel_mas_alto" value="Universitario">Superior Universitario
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="responsable_1_nivel_mas_alto" value="Posgrado"> Posgrado
+                                    </label>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>¿Completó ese nivel?</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <label>
+                                        <input type="radio" name="responsable_1_completo" value="Si"> Si
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="responsable_1_completo" value="No"> No
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <h5 class="m-3">Condicion de actividad</h5>
+                            <hr>
+
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>Condicion de actividad 
+                                    (Marcar todas las opciones que correspondan)</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="checkbox" name="responsable_1_actividad_estudia" value="Estudia">Estudia
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="checkbox" name="responsable_1_actividad_trabaja" value="Trabaja">Trabaja
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="checkbox" name="responsable_1_actividad_busca_trabajo" value="Busca trabajo">Busca trabajo
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="checkbox" name="responsable_1_actividad_cuidado_no_pago" value="Realiza tareas de cuidado no pagas">Realiza tareas de cuidado no pagas
+
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="checkbox" name="responsable_1_actividad_recibe_jubilacion" value="Recibe jubilacion o pensión">Recibe jubilacion o pensión
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <h5 class="m-3">Domicilio</h5>
+                            <hr>
+
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>¿Convive con la o el estudiante?: (En caso afirmativo no completar los datos referidos al domicilio) </b></p>
+                                <div class="options d-flex flex-column align-items-start">
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_1_convive" value="SI">Si
+                                        </label>
+                                    </div>
+
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_1_convive" value="NO">No
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="formis">
+                                <label for="responsable_1_domicilio_calle"><b>Calle</b></label>
+                                <br>
+                                <input type="text" name="responsable_1_domicilio_calle" placeholder="Tu respuesta">
+                            </div>
+
+                            <div class="formis">
+                                <label for="responsable_1_domicilio_numero"><b>N°</b></label>
+                                <br>
+                                <input type="text" name="responsable_1_domicilio_numero" placeholder="Tu respuesta">
+                            </div>
+
+                            <div class="formis">
+                                <label for="responsable_1_domicilio_piso_torre_depto"><b>Piso, Torre y/o depto</b></label>
+                                <br>
+                                <input type="text" name="responsable_1_domicilio_piso_torre_depto" placeholder="Tu respuesta">
+                            </div>
+
+                            <div class="formis">
+                                <label for="responsable_1_domicilio_entre_calles"><b>Entre calle y calle</b></label>
+                                <br>
+                                <input type="text" name="responsable_1_domicilio_entre_calles" placeholder="Tu respuesta">
+                            </div>
+
+                            <div class="formis">
+                                <label for="responsable_1_domicilio_otro_dato"><b>Otro dato</b></label>
+                                <br>
+                                <input type="text" name="responsable_1_domicilio_otro_dato" placeholder="Tu respuesta">
+                            </div>
+
+                            <div class="formis">
+                                <label for="responsable_1_provincia"><b>Provincia</b></label>
+                                <br>
+                                <input type="text" name="responsable_1_provincia" placeholder="Tu respuesta">
+                            </div>
+
+                            <div class="formis">
+                                <label for="responsable_1_distrito"><b>Distrito</b></label>
+                                <br>
+                                <input type="text" name="responsable_1_distrito" placeholder="Tu respuesta">
+                            </div>
+
+                            <div class="formis">
+                                <label for="responsable_1_localidad"><b>Localidad</b></label>
+                                <br>
+                                <input type="text" name="responsable_1_localidad" placeholder="Tu respuesta">
+                            </div>
+
+                            <div class="formis">
+                                <label for="responsable_1_telefono_area"><b>Telefono(cód. area)</b></label>
+                                <br>
+                                <input type="text" name="responsable_1_telefono_area" placeholder="Tu respuesta">
+                            </div>
+
+                            <div class="formis">
+                                <label for="responsable_1_telefono_celular"><b>Telefono celular(cód. area:)</b></label>
+                                <br>
+                                <input type="text" name="responsable_1_telefono_celular" placeholder="Tu respuesta">
+                            </div>
+
+                            <div class="formis">
+                                <label for="responsable_1_correo_electronico"><b>Correo electronico</b></label>
+                                <br>
+                                <input type="text" name="responsable_1_correo_electronico" placeholder="Tu respuesta">
+                            </div>
+                        </div>
+
+                        <h5 class="m-3">Datos de la persona responsable 2</h5>
+                        <hr>
+                
+                        <div class="col-md-6">
+        
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p class="m-2"><b>Vínculo con estudiante:</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_2_vinculo" value="Padre">Padre
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_2_vinculo" value="Madre">Madre
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_2_vinculo" value="Tutor">Tutor
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_2_vinculo" value="Tutora">Tutora
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_2_vinculo" value="Otro">Otro
+                                        </label>
+                                    </div>
+                    
+                                </div>
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="responsable_2_apellido"><b>Apellido/s</b></label>
+                                <br>
+                                <input type="text" id="Apellido2" name="responsable_2_apellido" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="responsable_2_nombre"><b>Nombre/s</b></label>
+                                <br>
+                                <input type="text" id="Nombre2" name="responsable_2_nombre" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="responsable_2_nacionalidad"><b>Nacionalidad</b></label>
+                                <br>
+                                <input type="text" id="Nacionalidad2" name="responsable_2_nacionalidad" placeholder="Tu respuesta">
+                            </div>
+                            
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>¿Posee DNI argentino?</b></p>
+                                <div class="options  d-flex flex-column align-items-start">
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_2_dni_argentino" value="SI">Si, y tiene el DNI físico
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_2_dni_argentino" value="SI/TRAMITE">Si, pero no tiene el DNI físico
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_2_dni_argentino" value="NO">No posee DNI Argentino
+                                        </label>
+                                    </div>
+                    
+                                </div>
+                            </div>
+                    
+                            <div class="formis m-2">
+                                <label for="responsable_2_numero_dni_argentino"><b>Si respondió "Si", indique número de DNI Argentino</b></label>
+                                <br>
+                                <input type="text" id="NumeroDNI2" name="responsable_2_numero_dni_argentino" placeholder="Tu respuesta">
+                            </div>
+                            
+                    
+                            <div class="formis m-2">
+                                <label for="responsable_2_certificado_preidentificacion"><b>Si respondió que NO tiene DNI argentino: ¿Posee certificado de Pre-identificación (CPI)? </b></label>
+                                <br>
+                    
+                                <div class="n1">
+                                    <label>
+                                        <input type="radio" name="responsable_2_certificado_preidentificacion" value="SI">Si
+                                    </label>
+                                </div>
+                    
+                                <div class="n1">
+                                    <label>
+                                        <input type="radio" name="responsable_2_certificado_preidentificacion" value="NO">No
+                                    </label>
+                                </div>
+                                
+                    
+                                <label for="DocExtranjero2"><b>¿Posee documento extranjero?</b></label>
+                                <br>
+                                
+                                <div class="n1">
+                                    <label>
+                                        <input type="radio" name="DocExtranjero2" value="SI">Si, tipo de doc:
+                                        <input type="text" name="TipoDocExtranjero2" placeholder="Tu respuesta">
+                                        <b>N°</b>
+                                        <input type="text" name="NumDocExtranjero2" placeholder="Tu respuesta">
+                                    </label>
+                                </div>
+                                
+                                <div class="n1">
+                                    <label>
+                                        <input type="radio" name="DocExtranjero2" value="NO">No
+                                    </label>
+                                </div>
+                                
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="responsable_2_profesion"><b>Profesión u Ocupación</b></label><br>
+                                <input type="text" id="Profesion2" name="responsable_2_profesion" placeholder="Tu respuesta">
+                            </div>
+                        
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>¿Asistió a algún establecimiento educativo?</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <label>
+                                        <input type="radio" name="responsable_2_educacion" value="Si"> Si
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="responsable_2_educacion" value="No"> No
+                                    </label>
+                                </div>
+                            </div>
+                        
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>En caso afirmativo, ¿Cuál es el nivel más alto que cursó?</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <label>
+                                        <input type="radio" name="responsable_2_nivel_mas_alto" value="Primario"> Primario
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="responsable_2_nivel_mas_alto" value="Secundario"> Secundario
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="responsable_2_nivel_mas_alto" value="Superior"> Superior
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="responsable_2_nivel_mas_alto" value="Universitario"> Superior Universitario
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="responsable_2_nivel_mas_alto" value="Posgrado"> Posgrado
+                                    </label>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    
+                        <div class="col-md-6">
+                    
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>¿Completó ese nivel?</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                                    <label>
+                                        <input type="radio" name="responsable_2_completo" value="Si"> Si
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="responsable_2_completo" value="No"> No
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <h5 class="m-3">Condición de actividad</h5>
+                            <hr>
+                    
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>Condición de actividad 
+                                    (Marcar todas las opciones que correspondan)</b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="checkbox" name="responsable_2_actividad_estudia" value="Estudia">Estudia
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="checkbox" name="responsable_2_actividad_trabaja" value="Trabaja">Trabaja
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="checkbox" name="responsable_2_actividad_busca_trabajo" value="Busca trabajo">Busca trabajo
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="checkbox" name="responsable_2_actividad_cuidado_no_pago" value="Realiza tareas de cuidado no pagas">Realiza tareas de cuidado no pagas
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="checkbox" name="responsable_2_actividad_recibe_jubilacion" value="Recibe jubilación o pensión">Recibe jubilación o pensión
+                                        </label>
+                                    </div>
+                    
+                                </div>
+                            </div>
+                    
+                            <h5 class="m-3">Domicilio</h5>
+                            <hr>
+                    
+                            <div class="formis2 d-flex flex-column align-items-start">
+                                <p><b>¿Convive con la o el estudiante?: (En caso afirmativo no completar los datos referidos al domicilio) </b></p>
+                                <div class="options d-flex flex-column align-items-start">
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_2_convive" value="SI">Si
+                                        </label>
+                                    </div>
+                    
+                                    <div class="n1">
+                                        <label>
+                                            <input type="radio" name="responsable_2_convive" value="NO">No
+                                        </label>
+                                    </div>
+                    
+                                </div>
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="responsable_2_domicilio_calle"><b>Calle</b></label>
+                                <br>
+                                <input type="text" id="Calle2" name="responsable_2_domicilio_calle" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="responsable_2_domicilio_numero"><b>N°</b></label>
+                                <br>
+                                <input type="text" id="NumeroCalle2" name="responsable_2_domicilio_numero" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="responsable_2_domicilio_piso_torre_depto"><b>Piso, Torre y/o depto</b></label>
+                                <br>
+                                <input type="text" id="Piso2" name="responsable_2_domicilio_piso_torre_depto" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="responsable_2_domicilio_entre_calles"><b>Entre calle y calle</b></label>
+                                <br>
+                                <input type="text" id="EntreCalle2" name="responsable_2_domicilio_entre_calles" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="responsable_2_domicilio_otro_dato"><b>Otro dato</b></label>
+                                <br>
+                                <input type="text" id="OtroDato2" name="responsable_2_domicilio_otro_dato" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="responsable_2_provincia"><b>Provincia</b></label>
+                                <br>
+                                <input type="text" id="Provincia2" name="responsable_2_provincia" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="responsable_2_distrito"><b>Distrito</b></label>
+                                <br>
+                                <input type="text" id="Distrito2" name="responsable_2_distrito" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="responsable_2_localidad"><b>Localidad</b></label>
+                                <br>
+                                <input type="text" id="Localidad2" name="responsable_2_localidad" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="responsable_2_telefono_area"><b>Teléfono (cód. área)</b></label>
+                                <br>
+                                <input type="text" id="Telefono2" name="responsable_2_telefono_area" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="responsable_2_telefono_celular"><b>Teléfono celular (cód. área)</b></label>
+                                <br>
+                                <input type="text" id="Celular2" name="responsable_2_telefono_celular" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="responsable_2_correo_electronico"><b>Correo electrónico</b></label>
+                                <br>
+                                <input type="text" id="Correo2" name="responsable_2_correo_electronico" placeholder="Tu respuesta">
+                            </div>
+                        </div>
+
+                        <h5 class="m-3">Restricciones por decisiones judiciales</h5>
+                        <hr>
+                    
+                        <div class="col-md-6">
+                            <div class="formis">
+                                <label for="restriccion_apellido"><b>Apellido/s</b></label>
+                                <br>
+                                <input type="text" id="Apellido3" name="restriccion_apellido" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="restriccion_nombre"><b>Nombre/s</b></label>
+                                <br>
+                                <input type="text" id="Nombre3" name="restriccion_nombre" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="restriccion_tipo_documento"><b>Tipo de documento</b></label>
+                                <br>
+                                <input type="text" id="TipoDoc3" name="restriccion_tipo_documento" placeholder="Tu respuesta">
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+                    
+                            <div class="formis">
+                                <label for="restriccion_numero_documento"><b>N° de documento</b></label>
+                                <br>
+                                <input type="text" id="NumeroDoc3" name="restriccion_numero_documento" placeholder="Tu respuesta">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="restriccion_descripcion"><b>Describa restricción</b></label>
+                                <br>
+                                <textarea id="Restriccion3" name="restriccion_descripcion" placeholder="Tu respuesta"></textarea>
+                            </div>
+                    
+                        </div>
+
+                        <hr>
+                        <p><b>Nota:</b> La restricción solo operará en caso de acompañarse la resolución judicial certificada.</p>
+                        <hr>
+                        <hr>
+                           <p>La totalidad de los datos e información suministrada por quien suscribe la presente tiene carácter de Declaración Jurada.<br> La persona abajo firmante se compromete a comunicar al establecimiento cualquier modificación de los datos suministrados en forma inmediata y de manera fehaciente</p>
+                        <hr>
+
+                        <div class="col-md-6">
+                            <div class="formis">
+                                <input type="file" id="Firma" name="url_firma_responsable" accept="image/*">
+                            </div>
+                    
+                            <div class="formis">
+                                <label for="aclaracion"><b>Aclaración</b></label>
+                                <br>
+                                <input type="text" id="Aclaracion" name="aclaracion_firma" placeholder="Tu respuesta">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="formis">
+                                <label for="fecha_inscripcion"><b>Fecha de inscripción</b></label>
+                                <br>
+                                <input type="date" id="FechaInscripcion" name="fecha_inscripcion">
+                            </div>
+                        </div>
+
+                    </div>
+                    <center><button type="submit" class="logbtn">ENVIAR</button></center>
+                </form>
+            </div>
+        </div>    
+    </div>
+
+</body>
+</html>

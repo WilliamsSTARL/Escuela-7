@@ -1,0 +1,124 @@
+/*Header*/
+header{
+    background-color:#35BEDD;
+    color:white;
+    font-family: "Questrial", sans-serif;
+    padding:2px;
+}
+h1{
+    font-size:35px;
+}
+
+body{
+    background-color:#A9DEE9;
+}
+
+/*Aside 1*/
+.aside1{
+    margin:10px;    
+}
+   /*Botones*/
+.btn1{
+    background-color:#35BEDD;
+    width:180px;
+    height:70px;
+    font-size:20px;
+    margin:9px;
+    border: none;
+    border-radius: 0px;
+}
+.btn1:hover{
+    background-color:#1D91AB;
+    transition-duration: 0.4s;
+}
+.btn1:active {
+    background-color: #59c9e2
+}
+  /*Link*/
+a{
+    color:white;
+    text-decoration: none;
+}
+  /*Boton rojo*/
+.red{
+    background-color:#DF3C3C;
+}
+.red:hover{
+    background-color:#ad2828;
+}
+.red:active{
+    background-color:#d85b5b;
+}
+
+/*Search & Show*/
+.navbar {
+    background-color: #35BEDD;
+    border-radius: 40px;
+    padding: 10px 0;
+    color:white;
+}
+
+h3{
+    font-size: 20px;
+    color:white;
+    padding:8px;
+}
+
+.search{
+    margin:20px;
+    margin-right: 45px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-input:focus{
+    outline:none;
+}
+
+
+.search-button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffd725;
+    color:white;
+}
+
+.search-button:hover {
+    background-color:  #dbbd36;
+}
+
+/*Show*/
+
+.show{
+    background-color:#A9DEE9;
+    padding:20px;
+}
+
+button{
+    background-color:#43CD85;
+    color:white;
+    margin:10px;
+    text-align: center;
+    padding: 10px;
+    border:none;
+    border-radius:10px;
+}
+
+button:hover{
+    background-color:#2fa066;
+    transition-duration:0.4s;
+}
+.row .shw{
+    margin:10px;
+}

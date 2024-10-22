@@ -1,0 +1,350 @@
+Error al insertar el registro: Unknown column 'Simple' in 'field list'
+Error al insertar el registro: Unknown column 'Simple' in 'field list'
+Error al insertar el registro: Unknown column 'Simple' in 'field list'
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "dni_argentino" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 36
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "certificado_preidentificacion" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 39
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "identidad_genero" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 41
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "lugar_nacimiento" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 54
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "provincia_argentina" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 56
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "hermanos" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 59
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "lenguas_distintas" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 61
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "lengua_indigena" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 62
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "otras_lenguas" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 63
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "pueblos_originarios" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 64
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "asignacion_universal" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 65
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "progresar" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 66
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "medio_transporte" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 67
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "hijas_hijos_menores_3" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 68
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "sala_maternales" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 69
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "obra_social" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 71
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "Asma" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 74
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "Celiaquia" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 75
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "ProblemasCardiacos" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 76
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "Diabetes" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 77
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "PresionAlta" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 78
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "Convulsiones" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 79
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "AlteracionesSanguineas" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 80
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "Quemaduras" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 81
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "FaltaOrgano" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 82
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "EnfermedadOncohematologica" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 83
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "Inmunodeficiencias" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 84
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "Fracturas" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 85
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "ProblemasHuesos" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 86
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "TraumatismoCráneo" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 87
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "ProblemasPiel" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 88
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "Desmayos" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 90
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "DolorPecho" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 91
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "Mareos" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 92
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "MayorCansancio" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 93
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "Palpitaciones" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 94
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "DificultadRespirar" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 95
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "Internacion/SC" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 97
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "Internacion/CII" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 98
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaGrave" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 102
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaMedicamentos" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 103
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/M" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 104
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaVacunas" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 105
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/V" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 106
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaAlimentos" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 107
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/A" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 108
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaPicaduras" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 109
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/P" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 110
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaEstacionales" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 111
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/E" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 112
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaOtras" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 113
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/O" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 114
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "DisminucionAuditiva" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 115
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "UsoAudifonos" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 116
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "DisminucionVisual" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 117
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "UsoLentes" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 118
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "MedicaciónHabitual" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 120
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "Operacion" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 122
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "MuerteSubita" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 125
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "DiabetesFamiliar" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 126
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "ProblemasCardiacosFamiliar" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 127
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "TosCronica" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 128
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "CeliaquiaFamiliar" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 129
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "datos_establecimiento_gestion" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 134
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "Pais" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 136
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "Provincia" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 138
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "GESTIONDOS" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 142
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "Dependencia" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 143
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "inscripcion_ciclo" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 147
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "turno_solicitado" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 149
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "jornada" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 150
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "ano" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 151
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "condicion_inscripcion" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 152
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "proyecto_inclusion" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 154
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "acompanamiento_inclusion" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 155
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "acompanante_externo" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 156
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "cec" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 158
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "cef" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 159
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "escuela_estetica" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 160
+[28-Aug-2024 01:11:24 Europe/Berlin] PHP Warning:  Undefined array key "servicio_alimentario" in C:\xampp\htdocs\PROGRAMACION\SISTEMA de TETE\PROYECTO\anexo2.php on line 162
+Error al insertar el registro: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' , , '', '', '', '', '', '', ''
+    )' at line 22
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "dni_argentino" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 32
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "certificado_preidentificacion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 35
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "identidad_genero" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 36
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "lugar_nacimiento" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 51
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "provincia_argentina" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 53
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "hermanos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 54
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "lengua_indigena" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 56
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "otras_lenguas" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 57
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "pueblos_originarios" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 58
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "asignacion_universal" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 59
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "progresar" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 60
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "hijas_hijos_menores_3" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 68
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "sala_maternales" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 69
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "obra_social" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 73
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "Asma" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 76
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "Celiaquia" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 77
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "ProblemasCardiacos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 78
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "Diabetes" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 79
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "PresionAlta" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 80
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "Convulsiones" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 81
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "AlteracionesSanguineas" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 82
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "Quemaduras" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 83
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "FaltaOrgano" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 84
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "EnfermedadOncohematologica" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 85
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "Inmunodeficiencias" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 86
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "Fracturas" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 87
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "ProblemasHuesos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 88
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "TraumatismoCráneo" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 89
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "ProblemasPiel" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 90
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "Desmayos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 92
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "DolorPecho" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 93
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "Mareos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 94
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "MayorCansancio" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 95
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "Palpitaciones" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 96
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "DificultadRespirar" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 97
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "Internacion/SC" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 99
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "Internacion/CII" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 100
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaGrave" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 104
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaMedicamentos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 105
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/M" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 106
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaVacunas" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 107
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/V" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 108
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaAlimentos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 109
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/A" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 110
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaPicaduras" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 111
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/P" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 112
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaEstacionales" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 113
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/E" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 114
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaOtras" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 115
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/O" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 116
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "DisminucionAuditiva" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 117
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "UsoAudifonos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 118
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "DisminucionVisual" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 119
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "UsoLentes" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 120
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "MedicaciónHabitual" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 122
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "Operacion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 124
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "MuerteSubita" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 127
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "DiabetesFamiliar" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 128
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "ProblemasCardiacosFamiliar" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 129
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "TosCronica" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 130
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "CeliaquiaFamiliar" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 131
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "datos_establecimiento_gestion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 136
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "Pais" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 138
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "Provincia" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 139
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "GESTIONDOS" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 142
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "Dependencia" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 143
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "inscripcion_ciclo" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 147
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "turno_solicitado" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 149
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "jornada" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 150
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "ano" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 151
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "condicion_inscripcion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 152
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "proyecto_inclusion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 154
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "acompanamiento_inclusion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 155
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "acompanante_externo" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 156
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "cec" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 158
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "cef" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 159
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "escuela_estetica" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 160
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "servicio_alimentario" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 162
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "responsable_1_vinculo" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 184
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "responsable_1_dni_argentino" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 188
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "responsable_1_documento_extranjero" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 191
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "responsable_1_educacion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 194
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "responsable_1_nivel_mas_alto" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 195
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "responsable_2_vinculo" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 289
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "responsable_2_dni_argentino" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 293
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "responsable_2_documento_extranjero" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 296
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "responsable_2_educacion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 299
+[09-Oct-2024 23:23:17 Europe/Berlin] PHP Warning:  Undefined array key "responsable_2_nivel_mas_alto" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 300
+Excepción capturada: Unknown column 'cuil_alumno' in 'field list'
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "dni_argentino" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 32
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "certificado_preidentificacion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 35
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "identidad_genero" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 36
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "lugar_nacimiento" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 51
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "provincia_argentina" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 53
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "hermanos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 54
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "lengua_indigena" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 56
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "otras_lenguas" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 57
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "pueblos_originarios" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 58
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "asignacion_universal" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 59
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "progresar" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 60
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "hijas_hijos_menores_3" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 68
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "sala_maternales" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 69
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "obra_social" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 73
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "Asma" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 76
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "Celiaquia" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 77
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "ProblemasCardiacos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 78
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "Diabetes" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 79
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "PresionAlta" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 80
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "Convulsiones" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 81
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "AlteracionesSanguineas" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 82
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "Quemaduras" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 83
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "FaltaOrgano" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 84
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "EnfermedadOncohematologica" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 85
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "Inmunodeficiencias" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 86
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "Fracturas" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 87
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "ProblemasHuesos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 88
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "TraumatismoCráneo" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 89
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "ProblemasPiel" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 90
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "Desmayos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 92
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "DolorPecho" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 93
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "Mareos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 94
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "MayorCansancio" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 95
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "Palpitaciones" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 96
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "DificultadRespirar" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 97
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "Internacion/SC" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 99
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "Internacion/CII" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 100
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaGrave" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 104
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaMedicamentos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 105
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/M" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 106
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaVacunas" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 107
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/V" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 108
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaAlimentos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 109
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/A" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 110
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaPicaduras" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 111
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/P" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 112
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaEstacionales" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 113
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/E" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 114
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaOtras" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 115
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/O" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 116
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "DisminucionAuditiva" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 117
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "UsoAudifonos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 118
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "DisminucionVisual" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 119
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "UsoLentes" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 120
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "MedicaciónHabitual" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 122
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "Operacion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 124
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "MuerteSubita" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 127
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "DiabetesFamiliar" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 128
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "ProblemasCardiacosFamiliar" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 129
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "TosCronica" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 130
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "CeliaquiaFamiliar" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 131
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "datos_establecimiento_gestion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 136
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "Pais" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 138
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "Provincia" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 139
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "GESTIONDOS" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 142
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "Dependencia" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 143
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "inscripcion_ciclo" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 147
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "turno_solicitado" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 149
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "jornada" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 150
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "ano" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 151
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "condicion_inscripcion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 152
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "proyecto_inclusion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 154
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "acompanamiento_inclusion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 155
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "acompanante_externo" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 156
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "cec" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 158
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "cef" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 159
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "escuela_estetica" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 160
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "servicio_alimentario" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 162
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "responsable_1_vinculo" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 184
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "responsable_1_dni_argentino" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 188
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "responsable_1_documento_extranjero" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 191
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "responsable_1_educacion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 194
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "responsable_1_nivel_mas_alto" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 195
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "responsable_2_vinculo" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 289
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "responsable_2_dni_argentino" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 293
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "responsable_2_documento_extranjero" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 296
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "responsable_2_educacion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 299
+[09-Oct-2024 23:25:26 Europe/Berlin] PHP Warning:  Undefined array key "responsable_2_nivel_mas_alto" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 300
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "dni_argentino" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 32
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "certificado_preidentificacion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 35
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "identidad_genero" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 36
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "lugar_nacimiento" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 51
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "provincia_argentina" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 53
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "hermanos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 54
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "lengua_indigena" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 56
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "otras_lenguas" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 57
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "pueblos_originarios" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 58
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "asignacion_universal" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 59
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "progresar" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 60
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "hijas_hijos_menores_3" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 68
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "sala_maternales" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 69
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "obra_social" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 73
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "Asma" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 76
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "Celiaquia" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 77
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "ProblemasCardiacos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 78
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "Diabetes" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 79
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "PresionAlta" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 80
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "Convulsiones" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 81
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "AlteracionesSanguineas" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 82
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "Quemaduras" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 83
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "FaltaOrgano" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 84
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "EnfermedadOncohematologica" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 85
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "Inmunodeficiencias" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 86
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "Fracturas" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 87
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "ProblemasHuesos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 88
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "TraumatismoCráneo" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 89
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "ProblemasPiel" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 90
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "Desmayos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 92
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "DolorPecho" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 93
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "Mareos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 94
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "MayorCansancio" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 95
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "Palpitaciones" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 96
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "DificultadRespirar" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 97
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "Internacion/SC" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 99
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "Internacion/CII" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 100
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaGrave" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 104
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaMedicamentos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 105
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/M" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 106
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaVacunas" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 107
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/V" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 108
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaAlimentos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 109
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/A" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 110
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaPicaduras" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 111
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/P" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 112
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaEstacionales" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 113
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/E" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 114
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaOtras" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 115
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "AlergiaInternacion/O" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 116
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "DisminucionAuditiva" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 117
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "UsoAudifonos" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 118
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "DisminucionVisual" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 119
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "UsoLentes" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 120
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "MedicaciónHabitual" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 122
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "Operacion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 124
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "MuerteSubita" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 127
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "DiabetesFamiliar" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 128
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "ProblemasCardiacosFamiliar" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 129
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "TosCronica" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 130
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "CeliaquiaFamiliar" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 131
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "datos_establecimiento_gestion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 136
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "Pais" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 138
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "Provincia" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 139
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "GESTIONDOS" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 142
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "Dependencia" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 143
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "inscripcion_ciclo" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 147
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "turno_solicitado" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 149
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "jornada" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 150
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "ano" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 151
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "condicion_inscripcion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 152
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "proyecto_inclusion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 154
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "acompanamiento_inclusion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 155
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "acompanante_externo" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 156
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "cec" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 158
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "cef" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 159
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "escuela_estetica" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 160
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "servicio_alimentario" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 162
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "responsable_1_vinculo" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 184
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "responsable_1_dni_argentino" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 188
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "responsable_1_documento_extranjero" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 191
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "responsable_1_educacion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 194
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "responsable_1_nivel_mas_alto" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 195
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "responsable_2_vinculo" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 289
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "responsable_2_dni_argentino" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 293
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "responsable_2_documento_extranjero" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 296
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "responsable_2_educacion" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 299
+[09-Oct-2024 23:53:03 Europe/Berlin] PHP Warning:  Undefined array key "responsable_2_nivel_mas_alto" in C:\xampp2\htdocs\PROYECTO\anexo2.php on line 300

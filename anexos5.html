@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--MetaDatos-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo-->
+    <title>EESN7</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/anexos.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <!---Contenedor-->
+    <div class="container-fluid">
+
+        <!---Header-->
+        <div class="row">
+            <header class="d-flex align-items-center"> 
+                <div class="col-auto"><img src="img/logo.png" alt=""></div>
+                <div class="col"><h1>Escuela de educacion secundaria N7 - Las toninas</h1></div>
+            </header>
+        </div>
+
+        <!---Contenido-->
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="aside1 d-flex flex-column align-items-center justify-content-center">
+                    
+                <button class="btn1"><a href="cargaralum.php">CARGAR</a></button>
+                <button class="btn1"><a href="legajos.php">LEGAJOS</a></button>
+                <button class="btn1"><a href="nuevousu1.php">USUARIO</a></button>
+                <button class="btn1"><a href="edicio y eliminacion_lt/back_botones.php">ADMINISTRACION</a></button>
+                <div class="dropdown">
+                    <button class="btn btn1 dropdown-toggle white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ANEXOS
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="anexos.html">Legajo personal del alumno</a></li>
+                        <li><a class="dropdown-item" href="anexos2.html">Ficha de inscripcion</a></li>
+                        <li><a class="dropdown-item" href="anexos3.html">Ficha de Autorizacion para Educacion Fisica</a></li>
+                        <li><a class="dropdown-item" href="anexos5.html">Ficha de Autorizacion para uso de imagenes</a></li>
+                    </ul>
+                </div>
+                <button class="btn1 red"><a href="index.php">SALIR</a></button>
+                    
+                </div><br><br>
+            </div>
+
+            <div class="col-sm-9">
+                <div class="scrollable-div">
+                <form action="anexo5.php" method="post" enctype="multipart/form-data">
+                    <h3>Autorizacion de imagen</h3>
+                    <hr>
+                    <div class="row">
+                        <div class="formi">
+                            <p>Por la presente me dirijo a ustedes a efectos de autorizarlos expresamente al uso gratuito de la imagen y voz de mi hijo/a menor de edad 
+                                <input type="text" id="NombreHijo" name="NombreHijo" placeholder="Tu respuesta"> con DNI N° 
+                                <input type="text" id="DNI_Hijo" name="DNI_Hijo" placeholder="Tu respuesta"> para la utilización, reproducción y/o exhibición de la misma a través de cualquier medio gráfico, radial y/o televisivo, por cualquier medio o formato de emisión/reproducción y/o difusión existente o futuro (incluido internet), sin limitación territorial y/o geográfica alguna, cuantas veces ustedes estimen necesario y/o conveniente para fines no comerciales y/o en contextos educativos y/o de sus promociones y/o de sus spots institucionales y/o publicitarios.
+                            </p>
+                            <p>Sin otro particular, saludamos atentamente.</p>
+                            <p>
+                                Firma del padre, madre o tutor: <input type="file" id="FirmaTutor" name="FirmaTutor"><br>
+                                Aclaración: <input type="text" id="Aclaracion" name="Aclaracion" placeholder="Tu respuesta"><br>
+                                DNI N°: <input type="text" id="DNI_Tutor" name="DNI_Tutor" placeholder="Tu respuesta"><br>
+                                Lugar y Fecha: <input type="text" id="Lugar" name="Lugar" placeholder="Lugar">
+                                <input type="date" id="Fecha" name="Fecha">
+                            </p>
+                        </div>
+                        <center><button type="submit" class="logbtn">ENVIAR</button></center>
+                    </div>
+                </form>
+            </div>
+        </div>    
+    </div>
+
+</body>
+</html>
